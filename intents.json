@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "periods_bleeding",
+      "patterns": [
+        "Why am i bleeding?",
+        "What is mestruation?",
+        "What is a period?"
+      ],
+      "responses": [
+        "A period is the part of the menstrual cycle when a woman bleeds from her vagina for a few days. For most women this happens every 28 days or so, but it's common for periods to be more or less frequent than this, ranging from day 21 to day 40 of their menstrual cycle."
+      ]
+    },
+    {
+      "tag": "PMS",
+      "patterns": [
+        "What is PMS?"
+      ],
+      "responses": [
+        "Premenstrual syndrome (PMS) has a wide variety of signs and symptoms, including mood swings, tender breasts, food cravings, fatigue, irritability and depression"
+      ]
+    },
+    {
+      "tag": "periods_issues",
+      "patterns": [
+        "I am having cramps",
+        "Menstrual cramps (dysmenorrhea) are throbbing or cramping pains in the lower abdomen. Many women have menstrual cramps just before and during their menstrual periods",
+        "I am having quite a lot of mood swings. Is it natural to do so?"
+      ],
+      "responses": [
+        "Cramps can start before your period and last throughout the bleeding process. If they feel mild, like someone's giving your ovaries a solid squeeze, it's normal. Try an over-the-counter medication for pain relief. If they take your breath away or have you doubled over in pain, check in with your doctor.",
+        "You love everybody. You cant stand anybody. All at the same time. Hello hormones. Before and during your period, hormones are hard at work moving your body through each phase. When those hormones rise and fall, so does your mood."
+      ]
+    },
+    {
+      "tag": "consultation",
+      "patterns": [
+        "I am feeling sick",
+        "I am having extensive bleeding.",
+        "Please connect me to the doctor"
+      ],
+      "responses": [
+        "You should consult a doctor. Would you like me to book an appointment for you?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Cheer me up",
+        "I am feeling very down."
+      ],
+      "responses": [
+        "Here's a Joke -> Why did the hipster burn his mouth? He drank the coffee before it was cool. Cheer Up, girl!",
+        "Wanna Hear a Joke -> What did the buffalo say when his son left for college? Bison. Cheer Up!"
+      ]
+    },
+    {
+      "tag": "acknowledgement",
+      "patterns": [
+        "yes"
+      ],
+      "responses": [
+        "Redirecting you to the  Consultation page!"
+      ]
+    }
+  ]
+}
